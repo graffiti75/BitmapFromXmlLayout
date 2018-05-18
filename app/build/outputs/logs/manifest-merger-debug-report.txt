@@ -1,0 +1,140 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.danylovolokh:hashtag-helper:1.1.0] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/hashtag-helper-1.1.0.aar/7b102be28e35f8d520d6bb3615691f44/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ceaaeadf89121c921eee973602d08203/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1eda1569c1480cc1f6fecb60ce0f9be5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.leocardz:link-preview:1.2.1] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/link-preview-1.2.1.aar/17525fc6bc2d813c592908b24f01dca9/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.ybq:Android-SpinKit:1.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.0.2.aar/5dec6542898fea92f14aa60a7a24f897/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/17573a74a9072165b5076a8c2caeea57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/909fb496f16b8e6ce10e25d51d7e48f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8e0ff1aaf48ef21a996fcdce41443c26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9badeda7f4eb1406d6f34a8e5bf806ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/adc88c1040d9f52be28beeb58b326d1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/12fa76f6a07add6a905b4d0321cb00cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/379a16f1972737605c1a4d586f45eb17/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ec55aa71e5127a9500749d3701d39385/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/21db7826f4511e26e9612d0b413a9ad5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a5e05863f7b36365ea3cce4e4ca09912/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/de23225578d9c41a68bd55fb023fd08c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/51a3d948fa2b538b549a8f59b99768c5/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:9:5-64
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:11:22-78
+application
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:13:5-25:19
+MERGED from [com.github.danylovolokh:hashtag-helper:1.1.0] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/hashtag-helper-1.1.0.aar/7b102be28e35f8d520d6bb3615691f44/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.danylovolokh:hashtag-helper:1.1.0] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/hashtag-helper-1.1.0.aar/7b102be28e35f8d520d6bb3615691f44/AndroidManifest.xml:11:5-15:19
+	android:supportsRtl
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:18:9-40
+activity#rodrigo.example.com.bitmapfromxmllayout.activity.AutoCompleteActivity
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:19:9-24:20
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:19:19-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+MERGED from [com.github.danylovolokh:hashtag-helper:1.1.0] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/hashtag-helper-1.1.0.aar/7b102be28e35f8d520d6bb3615691f44/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.danylovolokh:hashtag-helper:1.1.0] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/hashtag-helper-1.1.0.aar/7b102be28e35f8d520d6bb3615691f44/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ceaaeadf89121c921eee973602d08203/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ceaaeadf89121c921eee973602d08203/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1eda1569c1480cc1f6fecb60ce0f9be5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1eda1569c1480cc1f6fecb60ce0f9be5/AndroidManifest.xml:20:5-44
+MERGED from [com.leocardz:link-preview:1.2.1] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/link-preview-1.2.1.aar/17525fc6bc2d813c592908b24f01dca9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.leocardz:link-preview:1.2.1] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/link-preview-1.2.1.aar/17525fc6bc2d813c592908b24f01dca9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.ybq:Android-SpinKit:1.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.0.2.aar/5dec6542898fea92f14aa60a7a24f897/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.ybq:Android-SpinKit:1.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/Android-SpinKit-1.0.2.aar/5dec6542898fea92f14aa60a7a24f897/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/17573a74a9072165b5076a8c2caeea57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/17573a74a9072165b5076a8c2caeea57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/909fb496f16b8e6ce10e25d51d7e48f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/909fb496f16b8e6ce10e25d51d7e48f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8e0ff1aaf48ef21a996fcdce41443c26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/8e0ff1aaf48ef21a996fcdce41443c26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9badeda7f4eb1406d6f34a8e5bf806ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/9badeda7f4eb1406d6f34a8e5bf806ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/adc88c1040d9f52be28beeb58b326d1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/adc88c1040d9f52be28beeb58b326d1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/12fa76f6a07add6a905b4d0321cb00cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/12fa76f6a07add6a905b4d0321cb00cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/379a16f1972737605c1a4d586f45eb17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/379a16f1972737605c1a4d586f45eb17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ec55aa71e5127a9500749d3701d39385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/ec55aa71e5127a9500749d3701d39385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/21db7826f4511e26e9612d0b413a9ad5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/21db7826f4511e26e9612d0b413a9ad5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a5e05863f7b36365ea3cce4e4ca09912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/a5e05863f7b36365ea3cce4e4ca09912/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/de23225578d9c41a68bd55fb023fd08c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/de23225578d9c41a68bd55fb023fd08c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/51a3d948fa2b538b549a8f59b99768c5/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/rodrigo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/51a3d948fa2b538b549a8f59b99768c5/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rodrigo/Desktop/BitmapFromXmlLayout/app/src/main/AndroidManifest.xml

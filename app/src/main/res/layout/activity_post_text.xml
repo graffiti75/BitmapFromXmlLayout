@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_200"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <!-- Title -->
+
+        <TextView
+            android:id="@+id/id_activity_post_text__title_text_view"
+            style="@style/LabelGreyPostTextView"
+            android:text="@string/post_text_activity__title_text" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/id_activity_post_text__title_edit_text"
+                style="@style/TitlePostEditText"
+                android:hint="@string/post_text_activity__post_title" />
+
+            <!-- Counter -->
+
+            <TextView
+                android:id="@+id/id_activity_post_text__title_counter_text_view"
+                style="@style/CounterTextView"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <!-- Category -->
+
+        <TextView
+            android:id="@+id/id_activity_post_text__category_text_view"
+            style="@style/LabelGreyPostTextView"
+            android:text="@string/post_video_activity__category" />
+
+        <LinearLayout
+            android:id="@+id/id_activity_post_text__select_category_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/id_activity_post_text__select_category_text_view"
+                style="@style/PostTextView"
+                android:text="@string/post_text_activity__select_category" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:src="@mipmap/ic_gps" />
+        </LinearLayout>
+
+        <!-- Place -->
+
+        <TextView
+            android:id="@+id/id_activity_post_text__place_text_view"
+            style="@style/LabelGreyPostTextView"
+            android:text="@string/post_video_activity__place" />
+
+        <LinearLayout
+            android:id="@+id/id_activity_post_text__select_place_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/id_activity_post_text__select_place_text_view"
+                style="@style/PostTextView"
+                android:text="@string/post_text_activity__place_details_hint" />
+
+            <ImageView
+                android:id="@+id/id_activity_post_text__place_gps_image_view"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:src="@mipmap/ic_gps" />
+        </LinearLayout>
+
+        <!-- Description -->
+
+        <TextView
+            android:id="@+id/id_activity_post_text__description_text_view"
+            style="@style/LabelGreyPostTextView"
+            android:text="@string/post_video_activity__description" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/id_activity_post_text__description_edit_text"
+                style="@style/WritePostEditText"
+                android:hint="@string/post_text_activity__post_text" />
+
+            <!-- Counter -->
+
+            <TextView
+                android:id="@+id/id_activity_post_text__description_counter_text_view"
+                style="@style/CounterTextView"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_activity_auto_complete__relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+</FrameLayout>

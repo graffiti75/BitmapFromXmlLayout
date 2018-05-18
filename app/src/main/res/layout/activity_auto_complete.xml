@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_activity_auto_complete__parent_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/id_activity_auto_complete__linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id_activity_auto_complete__edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="#FFFFFF"
+            android:hint="Type something..."
+            android:maxLength="700"
+            android:padding="10dp"
+            android:textColor="@color/grey_500"
+            android:textColorHint="@color/grey_500"
+            android:textCursorDrawable="@drawable/edit_text_cursor_drawable"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_activity_auto_complete__relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">BitmapFromXmlLayout</string>
+    <string name="permissions_denial">Para utilizar este aplicativo, você precisa aceitar as permissões.</string>
+
+    <string name="ellipsis">&#8230;</string>
+    <string name="regular_font_path">fonts/Roboto-Regular.ttf</string>
+    <string name="bold_font_path">fonts/Roboto-Bold.ttf</string>
+    <string name="medium_font_path">fonts/Roboto-Medium.ttf</string>
+    <string name="latin">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</string>
+
+    <string name="navigation_drawer__headlines">Manchetes</string>
+    <string name="navigation_drawer__tendencies">Tendências</string>
+    <string name="navigation_drawer__interests">Interesses</string>
+    <string name="navigation_drawer__notifications">Notificações</string>
+    <string name="navigation_drawer__settings">Configurações</string>
+    <string name="navigation_drawer__logout">Sair</string>
+
+    <!-- Dialog -->
+    <string name="dialog__progress_dialog">Carregando</string>
+    <string name="dialog__please_wait">Espere por favor&#8230;</string>
+
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+    <string name="dialog_ok">Ok</string>
+
+    <string name="dialog__lost_connection_title">Conexão perdida</string>
+    <string name="dialog__lost_connection_message">Conexão com Internet perdida. Tente novamente mais tarde.</string>
+
+    <!-- API's -->
+    <string name="youtube_api_key">AIzaSyCpchnfOTZ_ngjb7uejgWQCyL15g1iHZ7s</string>
+    <string name="google_places_webservice_api_key">AIzaSyAq0pvPDbbxlfIfJ1G9P0lsfYViy0jflIU</string>
+    <string name="gcm_server_api_key">AIzaSyAaRXPk5tqShlJ9Ve6kpMFH7oHzSuO3P-A</string>
+    <string name="gcm_sender_id">900170392962</string>
+
+    <!-- Walkthrough Activity -->
+    <string name="walkthrough_activity__logo">Logo</string>
+    <string name="walkthrough_activity__enter">Entrar</string>
+    <string name="walkthrough_activity__enroll">Cadastrar</string>
+    <string name="walkthrough_activity__first_title">Bem vindo ao FaceMagazine</string>
+    <string name="walkthrough_activity__first_message">Sua rede social em formato de revista.\n </string>
+    <string name="walkthrough_activity__second_title">Mantenha-se atualizado</string>
+    <string name="walkthrough_activity__second_message">Filtre apenas o que é relevante para você\nem sua timeline.</string>
+    <string name="walkthrough_activity__third_title">Você em uma capa de revista</string>
+    <string name="walkthrough_activity__third_message">Publique as novidades do seu dia a dia\ne seja destaque no mundo todo.</string>
+
+    <!-- Login Activity -->
+    <string name="login_activity__user_name">Nome do usuário</string>
+    <string name="login_activity__password">Senha</string>
+    <string name="login_activity__enter">Entrar</string>
+    <string name="login_activity__forgot_password"><u>Esqueceu sua senha?</u></string>
+    <string name="login_activity__invalid_email_password">E-mail ou senha inválidos.</string>
+
+    <string name="login_activity__login_success">Usuário %1$s logado com sucesso!</string>
+    <string name="login_activity__login_error">Erro ao realizar login na conta %1$s.</string>
+
+    <!-- Enroll Activity -->
+    <string name="enroll_activity__name_surname">Nome e Sobrenome</string>
+    <string name="enroll_activity__user_name">Nome de Usuário</string>
+    <string name="enroll_activity__email">Email</string>
+    <string name="enroll_activity__password">Senha</string>
+    <string name="enroll_activity__repeat_email">Repetir Email</string>
+    <string name="enroll_activity__main_color">Cor preferida</string>
+    <string name="enroll_activity__bottom_text">Ao clicar em cadastrar você estará aceitando\nos <u>Termos de Uso</u> e <u>Privacidade</u>.</string>
+    <string name="enroll_activity__gallery_image_not_taken">Você não escolheu uma imagem.</string>
+    <string name="enroll_activity__dialog_select_color">Selecione uma cor para o seu perfil</string>
+
+    <string name="enroll_activity__alfanumeric">Digite ao menos um caractere alfanumérico.</string>
+
+    <string name="enroll_activity__email_unavailable">E-mail já cadastrado no sistema.</string>
+    <string name="enroll_activity__not_same_email">Por favor, digite e-mails iguais.</string>
+    <string name="enroll_activity__wrong_format">Digite um e-mail no formato correto.</string>
+
+    <string name="enroll_activity__username_availability_error">Erro ao checar disponibilidade do usuário %1$s.</string>
+    <string name="enroll_activity__username_unavailable">Usuário %1$s já cadastrado no sistema.</string>
+    <string name="enroll_activity__username_empty">Nome do usuário não pode ser nulo.</string>
+    <string name="enroll_activity__username_with_dot">Nome do usuário não pode conter \".\"</string>
+    <string name="enroll_activity__username_correct_length">Nome do usuário deve possuir entre 4 e 50 caracteres.</string>
+
+    <string name="enroll_activity__password_empty">Senha não pode ser nula.</string>
+    <string name="enroll_activity__password_correct_length">Senha do usuário deve possuir entre 4 e 50 caracteres.</string>
+
+    <string name="enroll_activity__empty_fields">Favor preencher todos os campos.</string>
+    <string name="enroll_activity__create_user_error">Erro ao criar conta %1$s.</string>
+    <string name="enroll_activity__create_user_success">Conta do usuário %1$s criada com sucesso!</string>
+
+    <!-- Category Activity -->
+    <string name="category_activity__title_text">Pelo que você tem interesse?</string>
+    <string name="category_activity__next">Próximo</string>
+
+    <!-- Interest Fragment -->
+    <string name="interests_fragment__retrofit_error">Erro obtendo Interesses do servidor.</string>
+    <string name="interests_fragment__success">Interesses baixados do servidor com sucesso!</string>
+
+    <!-- Interest Adapter -->
+    <string name="interests_adapter__add">Adicionar</string>
+
+    <!-- Fragment Settings -->
+    <string name="settings_fragment__user_name">Luke Winchester</string>
+    <string name="settings_fragment__email">luke.winchester@zukmail.com</string>
+    <string name="settings_fragment__account_data">Dados da conta</string>
+    <string name="settings_fragment__change_user_name">Alterar nome do usuário</string>
+    <string name="settings_fragment__change_password">Alterar senha</string>
+    <string name="settings_fragment__private_account">Conta privada</string>
+    <string name="settings_fragment__push_notifications">Notificações Push</string>
+    <string name="settings_fragment__support">Suporte</string>
+    <string name="settings_fragment__feedback">Feedback</string>
+    <string name="settings_fragment__usage_terms_privacy">Termos de Uso e Privacidade</string>
+    <string name="settings_fragment__private_account_dialog">Apenas usuários que você\npermitiu que te seguissem,\npoderão ver suas postagens.</string>
+    <string name="settings_fragment__who_can_tag_me">Quem pode me marcar</string>
+    <string name="settings_fragment__automatic_markups">Aprovar marcações automaticamente</string>
+    <string name="settings_fragment__who_can_tag_me_first_option">Apenas quem eu sigo</string>
+    <string name="settings_fragment__who_can_tag_me_second_option">Todos</string>
+    <string name="settings_fragment__who_can_tag_me_third_option">Ninguém</string>
+
+    <!-- Fragment Headlines -->
+    <string name="headlines_fragment__empty_list">Não existem postagens para esse interesse.</string>
+
+    <string name="headlines_fragment__liked">Gostei</string>
+    <string name="headlines_fragment__commented">Comentar</string>
+    <string name="headlines_fragment__menu_search">Pesquisar</string>
+    <string name="headlines_fragment__menu_filter">Filtrar</string>
+    <string name="headlines_fragment__menu_delete">Deletar</string>
+
+    <string name="headlines_fragment__plus_dialog_text">Texto</string>
+    <string name="headlines_fragment__plus_dialog_pictures">Fotos</string>
+    <string name="headlines_fragment__plus_dialog_video">Vídeo</string>
+    <string name="headlines_fragment__plus_dialog_audio">Áudio</string>
+    <string name="headlines_fragment__plus_dialog_youtube">YouTube</string>
+    <string name="headlines_fragment__plus_dialog_link">Link</string>
+
+    <string name="headlines_fragment__logout">Você realmente deseja se\ndeslogar do FaceMagazine?</string>
+
+    <string name="headlines_fragment_dialog_photos__take_picture">Tirar foto</string>
+    <string name="headlines_fragment_dialog_photos__choose_from_library">Escolher da biblioteca</string>
+
+    <string name="headlines_fragment_dialog_photos__getting_pictures_from_gallery">Obtendo fotos da Gallery&#8230;</string>
+    <string name="headlines_fragment_dialog_photos__taking_a_picture">Tirando uma foto&#8230;</string>
+
+    <string name="headlines_fragment_dialog_photos__media_store_title">Nova foto</string>
+    <string name="headlines_fragment_dialog_photos__media_store_description">Nova foto da sua câmera</string>
+
+    <!-- Fragment Adapter -->
+    <string name="headlines_adapter__audio_stopped">Áudio finalizado. Clique mais uma vez para executá-lo novamente.</string>
+    <string name="headlines_adapter__video_stopped">Vídeo finalizado. Clique mais uma vez para executá-lo novamente.</string>
+
+    <!-- Filter Activity -->
+    <string name="filter_activity__visualize">Visualizar:</string>
+    <string name="filter_activity__follow_posts">Apenas postagens de quem eu sigo.</string>
+    <string name="filter_activity__public_posts">Todas as postagens públicas.</string>
+    <string name="filter_activity__place">Local:</string>
+    <string name="filter_activity__world">Mundo</string>
+
+    <!-- User Profile Activity -->
+    <string name="user_profile_activity__following">Seguindo</string>
+    <string name="user_profile_activity__follow">Seguir</string>
+    <string name="user_profile_activity__following_profile">seguindo</string>
+    <string name="user_profile_activity__followers">seguidores</string>
+    <string name="user_profile_activity__info">Informações</string>
+    <string name="user_profile_activity__share_profile">Compartilhar perfil</string>
+    <string name="user_profile_activity__report_user">Denunciar usuário</string>
+    <string name="user_profile_activity__private_profile">Perfil privado</string>
+    <string name="user_profile_activity__empty_list">Este usuário não possui postagens.</string>
+    <string name="user_profile_activity__edit_profile">Editar Perfil</string>
+
+    <!-- Informations Activity -->
+    <string name="informations_activity__places">Locais:</string>
+    <string name="informations_activity__current_city">Cidade Atual</string>
+    <string name="informations_activity__current_city_details">Miami / FL - EUA</string>
+    <string name="informations_activity__born_city">Cidade Natal</string>
+    <string name="informations_activity__born_city_details">Orlando / FL - EUA</string>
+    <string name="informations_activity__informations">Informações:</string>
+    <string name="informations_activity__age">Idade</string>
+    <string name="informations_activity__age_details">22 anos</string>
+    <string name="informations_activity__job">Profissão</string>
+    <string name="informations_activity__job_details">Modelo</string>
+    <string name="informations_activity__relationship">Relacionamento</string>
+    <string name="informations_activity__relationship_details">Solteira</string>
+    <string name="informations_activity__unknown_field">Não especificada</string>
+
+    <!-- Report Activity -->
+    <string name="report_activity__report_profile_message">Descreva por qual motivo você está denunciando este usuário&#8230;</string>
+    <string name="report_activity__report_post_message">Descreva por qual motivo você está denunciando essa postagem&#8230;</string>
+    <string name="report_activity__ready">Pronto</string>
+    <string name="report_activity__empty_comment">Texto não pode ser vazio.</string>
+    <string name="report_activity__success">Denúncia enviada com sucesso!</string>
+
+    <!-- Post Text Activity -->
+    <string name="post_text_activity__title_text">Título:</string>
+    <string name="post_text_activity__post_title">Escreva um título para sua postagem</string>
+    <string name="post_text_activity__category">Categoria:</string>
+    <string name="post_text_activity__select_category">Selecione a categoria</string>
+    <string name="post_text_activity__place">Local:</string>
+    <string name="post_text_activity__place_details_hint">Localização não especificada</string>
+    <string name="post_text_activity__description">Descrição:</string>
+    <string name="post_text_activity__post_text">Escreva um texto sobre sua postagem</string>
+    <string name="post_text_activity__post">Publicar</string>
+    <string name="post_text_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <string name="post_text_activity__empty_title_description">Título ou descrição não podem ser vazios.</string>
+    <string name="post_text_activity__empty_category">Escolha uma categoria para a postagem.</string>
+    <string name="post_text_activity__empty_location">Escolha uma localização para a postagem.</string>
+
+    <!-- Menu Bottom Dialog -->
+    <string name="dialog_other_user_menu_bottom__menu_share_post">Compartilhar postagem</string>
+    <string name="dialog_other_user_menu_bottom__menu_report_post">Denunciar postagem</string>
+    <string name="dialog_my_user_menu_bottom__menu_edit_post">Editar postagem</string>
+    <string name="dialog_my_user_menu_bottom__menu_delete_post">Excluir postagem</string>
+
+    <!-- Comment Activity -->
+    <string name="comment_activity__write_comment">Escrever um comentário</string>
+    <string name="comment_activity__post">Postar</string>
+    <string name="comment_activity__empty_list">Não há comentários nesta postagem.</string>
+
+    <!-- Search Activity -->
+    <string name="search_activity__hint">Pesquisar</string>
+    <string name="search_activity__first_tab">Usuários</string>
+    <string name="search_activity__second_tab">Posts</string>
+
+    <!-- Forgot Password Activity -->
+    <string name="forgot_password_activity__hint">Informe seu email</string>
+    <string name="forgot_password_activity__retrieve_password">Recuperar senha</string>
+    <string name="forgot_password_activity__dialog_text">Foi enviado um email para\nvocê informando como\nrecuperar sua senha.</string>
+
+    <!-- Feedback Activity -->
+    <string name="feedback_activity__send">Enviar</string>
+    <string name="feedback_activity__message">Escreva sua opinião sobre o Status, sugestão, ou apenas relate um problema&#8230;</string>
+    <string name="feedback_activity__empty_comment">Feedback não pode ser vazio.</string>
+    <string name="feedback_activity__retrofit_error">Erro ao enviar feedback.</string>
+    <string name="feedback_activity__success">Feedback enviado com sucesso!</string>
+
+    <!-- Change Password Activity -->
+    <string name="change_password_activity__hint">Digite sua senha atual</string>
+    <string name="change_password_activity__type_new_password">Digite sua nova senha</string>
+    <string name="change_password_activity__type_new_password_again">Digite novamente sua nova senha</string>
+    <string name="change_password_activity__next_button">Próximo</string>
+    <string name="change_password_activity__confirm_button">Confirmar</string>
+    <string name="change_password_activity__type_new_password_diffent_from_current">Digite uma nova senha, e não sua atual.</string>
+    <string name="change_password_activity__typed_passwords_different">Senhas diferentes. Favor criar senhas iguais.</string>
+    <string name="change_password_activity__new_password_equal_previous">Nova senha idêntica à anterior. Favor criar uma nova senha.</string>
+
+    <!-- Change Username Activity -->
+    <string name="change_username_activity__hint">Nome de Usuário</string>
+    <string name="change_username_activity__confirm_button">Confirmar</string>
+
+    <!-- Choose Picture From Gallery Activity -->
+    <string name="choose_picture_from_gallery_activity__next">Próximo</string>
+    <string name="choose_picture_from_library_activity__variable_title">Selecione até %1$d fotos</string>
+    <string name="choose_picture_from_library_activity__variable_title_one">Selecione até 1 foto</string>
+
+    <!-- Post Photo Activity -->
+    <string name="post_photo_activity__label_title">Título:</string>
+    <string name="post_photo_activity__write_title_post">Escreva um título para sua postagem</string>
+    <string name="post_photo_activity__category">Categoria:</string>
+    <string name="post_photo_activity__select_category">Selecione a categoria</string>
+    <string name="post_photo_activity__place">Local:</string>
+    <string name="post_photo_activity__curitiba">Curitiba / Paraná - Brasil</string>
+    <string name="post_photo_activity__description">Descrição:</string>
+    <string name="post_photo_activity__write_text_post">Escreva um texto sobre sua postagem</string>
+    <string name="post_photo_activity__post">Postar</string>
+    <string name="post_photo_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <!-- Post Audio Activity -->
+    <string name="post_audio_activity__label_title">Título:</string>
+    <string name="post_audio_activity__write_title_post">Escreva um título para sua postagem</string>
+    <string name="post_audio_activity__category">Categoria:</string>
+    <string name="post_audio_activity__select_category">Selecione a categoria</string>
+    <string name="post_audio_activity__place">Local:</string>
+    <string name="post_audio_activity__curitiba">Curitiba / Paraná - Brasil</string>
+    <string name="post_audio_activity__post">Publicar</string>
+    <string name="post_audio_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <!-- Post Video Activity -->
+    <string name="post_video_activity__label_title">Título:</string>
+    <string name="post_video_activity__write_title_post">Escreva um título para sua postagem</string>
+    <string name="post_video_activity__category">Categoria:</string>
+    <string name="post_video_activity__select_category">Selecione a categoria</string>
+    <string name="post_video_activity__place">Local:</string>
+    <string name="post_video_activity__curitiba">Curitiba / Paraná - Brasil</string>
+    <string name="post_video_activity__description">Descrição:</string>
+    <string name="post_video_activity__write_text_post">Escreva um texto sobre sua postagem</string>
+    <string name="post_video_activity__post">Publicar</string>
+    <string name="post_video_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <!-- Choose Video From Gallery Activity -->
+    <string name="choose_video_from_gallery_activity__title_dialog">Carregando lista de vídeos</string>
+    <string name="choose_video_from_gallery_activity__message_dialog">Espere por favor&#8230;</string>
+    <string name="choose_video_from_gallery_activity__empty_list">Não há vídeos disponíveis neste dispositivo.</string>
+
+    <!-- Youtube Preview Activity -->
+    <string name="youtube_preview_activity__link">Link:</string>
+    <string name="youtube_preview_activity__video_url_hint">Cole a URL do vídeo aqui</string>
+    <string name="youtube_preview_activity__next">Próximo</string>
+    <string name="youtube_preview_activity__malformed_url">URL mal formada. Favor tentar novamente.</string>
+    <string name="youtube_preview_activity__title_dialog">Carregando Preview do Youtube</string>
+    <string name="youtube_preview_activity__message_dialog">Espere por favor&#8230;</string>
+
+    <!-- Post Youtube Activity -->
+    <string name="post_youtube_activity__label_title">Título:</string>
+    <string name="post_youtube_activity__write_title_post">Escreva um título para sua postagem</string>
+    <string name="post_youtube_activity__category">Categoria:</string>
+    <string name="post_youtube_activity__select_category">Selecione a categoria</string>
+    <string name="post_youtube_activity__place">Local:</string>
+    <string name="post_youtube_activity__curitiba">Curitiba / Paraná - Brasil</string>
+    <string name="post_youtube_activity__description">Descrição:</string>
+    <string name="post_youtube_activity__write_text_post">Escreva um texto sobre sua postagem</string>
+    <string name="post_youtube_activity__post">Postar</string>
+    <string name="post_youtube_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <!-- Edit Profile Activity -->
+    <string name="edit_profile_activity__current_city">Cidade atual:</string>
+    <string name="edit_profile_activity__unspecified_city">Cidade não especificada</string>
+    <string name="edit_profile_activity__born_city">Cidade natal:</string>
+    <string name="edit_profile_activity__birth_date">Data de nascimento:</string>
+    <string name="edit_profile_activity__birth_date__hint">01/01/1970</string>
+    <string name="edit_profile_activity__profession">Profissão:</string>
+    <string name="edit_profile_activity__profession_hint">Profissão não especificada</string>
+    <string name="edit_profile_activity__relationship">Relacionamento:</string>
+    <string name="edit_profile_activity__relationship_hint">Solteiro</string>
+    <string name="edit_profile_activity__profile_theme">Tema do perfil:</string>
+    <string name="edit_profile_activity__profile_theme_hint">Cor preferida</string>
+    <string name="edit_profile_activity__gallery_image_not_taken">Você não escolheu uma imagem.</string>
+    <string name="edit_profile_activity__dialog_select_color">Selecione uma cor para o seu perfil</string>
+    <string name="edit_profile_activity__dialog_select_relationship">Escolha uma opção:</string>
+    <string name="edit_profile_activity__date_format_error">Digite uma data no formato DD/MM/AAAA.</string>
+    <string name="edit_profile_activity__profession_error">Por favor informe uma profissão.</string>
+    <string name="edit_profile_activity__create_user_error">Erro ao atualizar conta %1$s.</string>
+    <string name="edit_profile_activity__create_user_success">Conta do usuário \'%1$s\' atualizada com sucesso!</string>
+    <string name="edit_profile_activity__unknown_field">Não especificada</string>
+
+    <string name="edit_profile_activity__relationship_single">Solteiro</string>
+    <string name="edit_profile_activity__relationship_dating">Namorando</string>
+    <string name="edit_profile_activity__relationship_engaged">Noivo</string>
+    <string name="edit_profile_activity__relationship_maried">Casado</string>
+    <string name="edit_profile_activity__relationship_widow">Viúvo</string>
+
+    <string name="edit_profile_activity__relationship_backend_single">SINGLE</string>
+    <string name="edit_profile_activity__relationship_backend_dating">DATING</string>
+    <string name="edit_profile_activity__relationship_backend_engaged">ENGAGED</string>
+    <string name="edit_profile_activity__relationship_backend_maried">MARIED</string>
+    <string name="edit_profile_activity__relationship_backend_widow">WIDOW</string>
+
+    <!-- Edit Post Activity -->
+    <string name="edit_post_activity__title_text">Título:</string>
+    <string name="edit_post_activity__post_title">Happy New Year!</string>
+    <string name="edit_post_activity__category">Categoria:</string>
+    <string name="edit_post_activity__select_category">Festas e Eventos</string>
+    <string name="edit_post_activity__place">Local:</string>
+    <string name="edit_post_activity__place_details">Selecionar cidade</string>
+    <string name="edit_post_activity__post">Aplicar</string>
+    <string name="edit_post_activity__dialog_choose_category">Escolha uma categoria:</string>
+    <string name="edit_post_activity__dialog_delete_post_title">Você realmente deseja\nexcluir essa postagem?</string>
+
+    <string name="edit_post_activity__description">Descrição:</string>
+    <string name="edit_post_activity__post_text">Escreva um texto sobre sua postagem</string>
+    <string name="edit_post_activity__empty_title">Título não pode ser vazio.</string>
+    <string name="edit_post_activity__empty_description">Descrição não pode ser vazia.</string>
+
+    <!-- Link Preview Activity -->
+    <string name="link_preview_activity__link">Link:</string>
+    <string name="link_preview_activity__video_url_hint">Cole a URL do link aqui</string>
+    <string name="link_preview_activity__next">Próximo</string>
+    <string name="link_preview_activity__malformed_url">URL mal formada. Favor tentar novamente.</string>
+    <string name="link_preview_activity__no_preview_image">Link possui nenhuma imagem de preview.</string>
+
+    <!-- Post Link Activity -->
+    <string name="post_link_activity__title_text">Título:</string>
+    <string name="post_link_activity__post_title">Escreva um título para sua postagem</string>
+    <string name="post_link_activity__category">Categoria:</string>
+    <string name="post_link_activity__select_category">Selecione a categoria</string>
+    <string name="post_link_activity__place">Local:</string>
+    <string name="post_link_activity__place_details">Curitiba / Paraná - Brasil</string>
+    <string name="post_link_activity__description">Descrição:</string>
+    <string name="post_link_activity__post_text">Escreva um texto sobre sua postagem</string>
+    <string name="post_link_activity__post">Postar</string>
+    <string name="post_link_activity__dialog_choose_category">Escolha uma categoria:</string>
+
+    <!-- Places Search Activity -->
+    <string name="places_search_activity__hint">Pesquisar&#8230;</string>
+    <string name="places_search_activity__retrofit_error">Erro obtendo dados do servidor.</string>
+
+    <!-- Cut Video Activity -->
+    <string name="cut_video_activity__device_not_supported_title">Dispositivo não suportado</string>
+    <string name="cut_video_activity__device_not_supported_message">FFmpeg não é suportado no seu dispositivo.</string>
+    <string name="cut_video_activity__next">Próximo</string>
+    <string name="cut_video_activity__edited_video">Vídeo editado com sucesso!</string>
+
+    <!-- Make Search -->
+    <string name="make_search__retrofit_error">Erro ao realizar busca.</string>
+
+    <!-- Social Media Activity -->
+    <string name="social_media_activity__skip">Pular</string>
+    <string name="social_media_activity__hello">Olá %1$s!</string>
+    <string name="social_media_activity__message">Deseja encontrar seus amigos de outras\nredes sociais no Status?</string>
+    <string name="social_media_activity__facebook">Ver amigos do Facebook</string>
+    <string name="social_media_activity__twitter">Ver amigos do Twitter</string>
+    <string name="social_media_activity__coming_soon">Em breve</string>
+
+    <!-- Create User Interests -->
+    <string name="create_user_interests__retrofit_error">Erro ao inserir lista de categorias no usuário \'%1$s\'.</string>
+
+    <!-- Get User -->
+    <string name="get_user_interests__retrofit_error">Erro ao carregar perfil do usuário.</string>
+    <string name="get_user_interests__username_retrofit_error">Erro ao carregar perfil do usuário \'%1$s\'.</string>
+
+    <!-- Search Posts Fragment -->
+    <string name="search_posts_fragment__empty_list">Nenhuma postagem encontrada para esta pesquisa.</string>
+
+    <!-- Search Users Fragment -->
+    <string name="search_users_fragment__empty_list">Nenhum usuário encontrado para esta pesquisa.</string>
+
+    <!-- Retrieve Comments -->
+    <string name="retrieve_comments__retrofit_error">Erro ao obter comentários desta postagem.</string>
+
+    <!-- Comments Adapter -->
+    <string name="comments_adapter__edit_post">Editar postagem</string>
+    <string name="comments_adapter__remove_post">Remover postagem</string>
+    <string name="comments_adapter__comment_removed_successfully">Comentário removido com sucesso.</string>
+    <string name="comments_adapter__edit_remove_your_comment">Você só pode Editar ou Remover um comentário seu.</string>
+
+    <!-- Remove Comment -->
+    <string name="remove_comment__retrofit_error">Erro ao remover comentário.</string>
+
+    <!-- Create Comment -->
+    <string name="create_comment__retrofit_error">Erro ao criar comentário.</string>
+
+    <!-- Get User -->
+    <string name="get_user__username_retrofit_error">Erro ao carregar perfil do usuário \'%1$s\'.</string>
+    <string name="get_user__retrofit_error">Erro ao carregar perfil do usuário.</string>
+
+    <!-- Following Activity -->
+    <string name="following_activity__empty_list">Usuário está seguindo ninguém.</string>
+    <string name="following_activity__username_retrofit_error">Erro ao carregar lista de usuários que usuário \'%1$s\' segue.</string>
+
+    <!-- Followers Activity -->
+    <string name="followers_activity__empty_list">Usuário não possui seguidores.</string>
+    <string name="followers_activity__username_retrofit_error">Erro ao carregar lista de seguidores do usuário \'%1$s\'.</string>
+
+    <!-- Edit Comment Activity -->
+    <string name="edit_comment_activity__empty_comment">Comentário não pode ser nulo.</string>
+
+    <!-- Comment Dialog -->
+    <string name="comment_dialog__edit_comment">Editar meu comentário</string>
+    <string name="comment_dialog__delete_comment">Excluir meu comentário</string>
+    <string name="comment_dialog__cancel_comment">Cancelar</string>
+
+    <!-- Comment Activity -->
+    <string name="comment_activity__empty_comment">Comentário não pode ser vazio.</string>
+
+    <!-- Follow Unfollow -->
+    <string name="follow_unfollow__retrofit_error">Erro ao começar/deixar de seguir usuário.</string>
+
+    <!-- Is Following -->
+    <string name="is_following__retrofit_error">Erro ao verificar se sigo usuário %1$s.</string>
+
+    <!-- Like Post -->
+    <string name="like_post__retrofit_error">Erro ao curtir postagem.</string>
+
+    <!-- Delete Post -->
+    <string name="delete_post__retrofit_error">Erro ao deletar postagem.</string>
+
+    <!-- Update Post -->
+    <string name="update_post__retrofit_error">Erro ao atualizar postagem.</string>
+
+    <!-- New Post -->
+    <string name="create_post__retrofit_error">Erro ao inserir postagem.</string>
+
+    <!-- List Tendencies -->
+    <string name="list_tendencies__retrofit_error">Erro ao listar tendências.</string>
+
+    <!-- Download Audio Async Task -->
+    <string name="download_audio_async_task">Baixando arquivo. Por favor, aguarde&#8230;</string>
+
+    <!-- Logout -->
+    <string name="logout__logout_error">Erro ao realizar logout na conta %1$s.</string>
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+</resources>

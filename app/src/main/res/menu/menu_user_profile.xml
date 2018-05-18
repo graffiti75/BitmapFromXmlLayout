@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/id_menu_info"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"
+        android:title="@string/user_profile_activity__info"/>
+
+    <item
+        android:id="@+id/id_menu_share_profile"
+        app:showAsAction="never"
+        android:title="@string/user_profile_activity__share_profile"/>
+
+    <item
+        android:id="@+id/id_menu_report_user"
+        app:showAsAction="never"
+        android:title="@string/user_profile_activity__report_user"/>
+</menu>
